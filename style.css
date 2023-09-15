@@ -1,0 +1,54 @@
+
+
+.carousel{
+}
+.navbar
+{
+    color: black;
+    position: fixed !important;
+  z-index:1;
+  width: 100%;
+  
+}
+.content1{
+    
+    padding: 10%;
+    justify-content: center;
+    width: 100%;
+    background-color: rgb(191, 188, 188);
+}
+#about{
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+
+}
+
+.content2 h1{
+    text-align: center;
+    margin-top: 10%;
+   
+
+}
+.content2 p{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.content2 .container{
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+/*team*/
+.container h3, .container p{
+    text-align: center;
+}
+.container h3{
+    margin-top: 10%;
+}
+.container p{
+    margin-bottom: 30px;
+}
