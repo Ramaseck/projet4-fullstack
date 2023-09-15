@@ -39,7 +39,9 @@
     flex-wrap: wrap;
     justify-content: center;
 }
-
+.content{
+    display: flex;
+}
 
 
 /*team*/
@@ -51,4 +53,16 @@
 }
 .container p{
     margin-bottom: 30px;
+}
+@media  screen and (max-width:960px) {
+    .content{
+        display:block;
+    }
+    .content img{
+        width: 100%;
+    }
+
+    .team{
+        justify-content: center;
+    }
 }
